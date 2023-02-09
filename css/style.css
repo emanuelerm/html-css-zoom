@@ -78,4 +78,65 @@ main {
     display: flex;
     flex-flow: row wrap;
     gap: 0.8rem 0.5rem;
+    text-align: center;
+}
+
+/* / main */
+
+/* footer */
+
+footer {
+    background-color: var(--footer-bg);
+    height: 10vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.audio-video div,
+.select div,
+.exit a{
+    align-content: center;
+    padding: 1rem 0.2rem;
+}
+
+p {
+    font-size: 0.85rem;
+}
+
+.fa-microphone,
+.fa-video,
+.fa-user-plus,
+.fa-user-group,
+.fa-chart-column,
+.fa-share-from-square,
+.fa-comment,
+.fa-record-vinyl,
+.fa-microsoft,
+.fa-ellipsis {
+    font-size: 1.8rem;
+}
+
+.choose {
+    padding: 0.1rem 1rem;
+}
+
+.fa-share-from-square {
+    color: var(--green-icon);
+}
+
+.icon:hover {
+    background-color: #4A4A4A;
+    border-radius: 10px;
+}
+
+.exit {
+    background-color: var(--close-bg);
+}
+
+.exit:hover {
+    background-color: #ff6363;
 }
