@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root {
+    --general-bg: #000000;
+    --footer-bg: #222222;
+    --icons-color: #FFFFFF;
+    --green-icon: #4BC800;
+    --close-bg: #FF0000;
+    --user-bg: #657079;
+    --text-color: #FFFFFF;
+}
