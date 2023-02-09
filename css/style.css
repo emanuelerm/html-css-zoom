@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 :root {
@@ -11,6 +13,33 @@
     --icons-color: #FFFFFF;
     --green-icon: #4BC800;
     --close-bg: #FF0000;
-    --user-bg: #657079;
+    --user-bg: #4A4A4A;
     --text-color: #FFFFFF;
 }
+
+header, main {
+    background-color: var(--general-bg);
+}
+
+/* header */
+
+header {
+    height: 8vh;
+}
+
+.view {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0.5rem;
+}
+
+.view a {
+    margin-left: 0.3rem;
+    padding: 0.1rem 0.3rem;
+    background-color: var(--user-bg);
+    font-size: 0.8rem;
+    border-radius: 3px;
+    align-content: center;
+}
+
+/* / header */
